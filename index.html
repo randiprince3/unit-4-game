@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+          <div class="header">
+              <h1>CrystalsCollector!</h1>
+          </div>
+
+          <br>
+          
+          <div class="instructions">
+              <p>You will be given a random number at the start of the game.</p>
+              <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+              <p>You win the game by matching your total score to the random number and you lose the game if your total score goes above it.</p>
+              <p>The value of each cyrstal is hidden from you until you click on it.</p>
+              <p>Each the game starts, the value of each crystal and random number changes.</p>
+          </div>
+
+          <br>
+
+          <div class="number-stuff">
+                <div class="random-number">
+                    <h2><span id="number-to-match"></span></h2>
+                </div>
+                <div class="win-or-lose">
+                    <h4>Wins: <span id="number-win"></span></h4>
+                    <h4>Loses: <span id="number-losses"></span></h4>
+                </div>
+          </div>
+
+          <br>
+
+          <div class="crystal">
+                <img id="ruby" src="assets/images/ruby-gem.jpg" alt="ruby gem">
+                <img id="emerald" src="assets/images/emerald-gem.jpg" alt="emerald gem">
+                <img id="diamond" src="assets/images/diamond-gem.jpg" alt="diamond gem">
+                <img id="aqua" src="assets/images/aqua-gem.jpeg" alt="aqua gem">
+          </div>
+
+          <br>
+
+          <div class="your-score">Your total score is: </div>
+
+          <div class="current-score">
+              <h2><span id="score"></span></h2>
+          </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+.header {
+    background: pink;
+    width: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.instructions {
+    background: pink;
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.number-stuff {
+    height: 100px;
+    width: 25%;
+}
+
+.random-number {
+    float: left;
+    width: 70%;
+    background: lightgreen;
+    height: 100%;
+}
+
+.win-or-lose {
+    float: right;
+    width: 27%;
+    background: lightcyan;
+    height: 100%;
+}
+
+.crystal {
+    clear: both;
+}
+
+.your-score {
+    background: palegoldenrod;
+    width: 18%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.current-score {
+    background: palegoldenrod;
+    width: 18%;
+    height: 100px;
+}
